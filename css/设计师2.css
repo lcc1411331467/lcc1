@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  header img {
+    margin: 0.34rem 0.384rem;
+    height: 2.13rem;
+    margin-top: 0.3rem; }
+  header p {
+    margin-top: 0.5rem;
+    font-size: 0.768rem;
+    color: #000000;
+    line-height: 2.13rem; }
+  header .tubiao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -0.6rem; }
+    header .tubiao div {
+      margin: 0.34rem 0.384rem;
+      line-height: 1.28rem; }
+      header .tubiao div .p1 {
+        height: 0.96rem;
+        font-size: 0.704rem;
+        color: #999999; }
+      header .tubiao div .p2 {
+        height: 0.96rem;
+        font-size: 0.704rem; }
+      header .tubiao div p {
+        font-size: 0.47rem;
+        color: #999;
+        text-align: center; }
+
+.xiala {
+  width: 100%; }
+  .xiala ul {
+    height: 2.13rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #F4F4F4;
+    border-top: 1px solid #F4F4F4;
+    line-height: 2.13rem;
+    text-align: center;
+    align-items: center; }
+    .xiala ul li {
+      width: 25%;
+      height: 2rem;
+      border-right: 1px solid #F4F4F4;
+      text-align: center;
+      font-size: 0.768rem; }
+      .xiala ul li span {
+        width: 0.53rem;
+        height: 0.32rem;
+        color: #999999; }
+
+hr {
+  height: 0.9rem;
+  background-color: #f4f4f4;
+  border: 0; }
+
+.jieshao {
+  border-bottom: 1px solid #F4F4F4;
+  display: flex; }
+  .jieshao img {
+    margin-top: 0.768rem;
+    margin-bottom: 0.768rem;
+    margin-left: 0.45rem;
+    width: 3.414rem;
+    height: 3.414rem;
+    border-radius: 50%; }
+  .jieshao .neirong {
+    margin-top: 0.668rem;
+    margin-left: 0.47rem;
+    height: 100%; }
+    .jieshao .neirong .ming {
+      font-size: 0.768rem;
+      color: #000000; }
+      .jieshao .neirong .ming button {
+        margin-left: 0.47rem;
+        font-size: 0.512rem;
+        color: #FFFFFF;
+        background-color: #37c893;
+        border-radius: 3px; }
+      .jieshao .neirong .ming .shu {
+        margin-left: 4rem;
+        font-size: 0.6rem;
+        color: #fab505; }
+      .jieshao .neirong .ming .ren {
+        font-size: 0.6rem;
+        color: #999; }
+    .jieshao .neirong .zuopin {
+      margin-top: 0.59rem;
+      font-size: 0.6rem; }
+      .jieshao .neirong .zuopin span {
+        font-size: 0.6rem;
+        color: #999;
+        margin-right: 1.06rem; }
+    .jieshao .neirong .fengge {
+      margin-top: 0.42rem;
+      font-size: 0.6rem;
+      color: #333333; }
+      .jieshao .neirong .fengge span {
+        color: #999999; }
+
+.xialanr {
+  width: 100%;
+  height: 14rem;
+  background-color: #F4F4F4;
+  position: absolute;
+  top: 6.3rem; }
+  .xialanr p {
+    margin-left: 0.48rem;
+    margin-top: 1.07rem;
+    font-size: 0.6rem;
+    color: #000000;
+    margin-bottom: 0.238rem; }
+  .xialanr ul {
+    margin-left: 0.48rem;
+    margin-right: 0.48rem;
+    height: 4rem; }
+    .xialanr ul li {
+      height: 1.27rem;
+      line-height: 1.27rem;
+      margin-top: 0.53rem;
+      float: left;
+      width: 31%;
+      border: 1px solid #EEEEEE;
+      margin-left: 0.17rem;
+      background-color: white;
+      flex-flow: wrap;
+      text-align: center;
+      font-size: 0.6rem;
+      color: #999999; }
+  .xialanr .queren {
+    margin-top: 2rem;
+    width: 100%;
+    height: 1.50rem;
+    background-color: #39c893;
+    color: white;
+    font-size: 0.768rem; }
+  .xialanr .touming {
+    width: 100%;
+    height: 36rem;
+    background-color: #000000;
+    opacity: 0.75; }

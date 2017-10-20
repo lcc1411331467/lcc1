@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  header .p1 {
+    font-size: 0.96rem; }
+  header p {
+    margin-top: 0.5rem;
+    font-size: 0.768rem;
+    color: #000000;
+    line-height: 2.13rem; }
+  header .tubiao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -0.6rem; }
+    header .tubiao div {
+      margin: 0.34rem 0.384rem;
+      line-height: 1.28rem; }
+      header .tubiao div .p2 {
+        height: 0.96rem;
+        font-size: 0.704rem; }
+      header .tubiao div p {
+        font-size: 0.47rem;
+        color: #999;
+        text-align: center; }
+
+.chuang {
+  margin-top: -0.8rem;
+  width: 100%;
+  height: 19rem;
+  background-color: #202020; }
+  .chuang img {
+    margin-top: 2rem;
+    width: 100%; }
+
+.hr3 {
+  margin-top: 0.98rem;
+  height: 0.02rem;
+  border-color: #38ca94;
+  background-color: #38ca94; }
+
+.yuan {
+  margin-top: -0.48rem;
+  display: flex;
+  justify-content: space-between; }
+  .yuan li {
+    text-align: center;
+    border: 1px solid #38ca94;
+    border-radius: 50%;
+    height: 0.96rem;
+    width: 0.96rem;
+    background-color: #202020; }
+
+.yuan2 {
+  display: flex;
+  justify-content: space-between; }
+  .yuan2 li {
+    text-align: center;
+    color: #38CA94;
+    font-size: 0.60rem; }
+
+.quanshi {
+  margin-left: 0.384rem;
+  margin-right: 0.384rem;
+  margin-top: 1.5rem;
+  font-size: 0.678rem;
+  color: white; }
+
+.jieshao {
+  margin-top: 0.768rem;
+  margin-left: 0.384rem;
+  margin-right: 0.384rem; }
+  .jieshao p {
+    font-size: 0.6rem;
+    color: #333333; }
+
+.hr2 {
+  margin-top: 0.39rem;
+  height: 0.9rem;
+  background-color: #f4f4f4;
+  border: 0; }
+
+.fuwu {
+  text-align: center; }
+  .fuwu p {
+    margin-top: 0.768rem;
+    color: #55A532;
+    display: flex;
+    justify-content: center;
+    font-size: 0.68rem; }
+    .fuwu p span {
+      font-size: 0.6rem;
+      color: #333333; }
+  .fuwu ul {
+    font-size: 0.68rem;
+    display: flex;
+    justify-content: space-around; }
+  .fuwu footer {
+    height: 2.26rem;
+    display: flex;
+    background-color: #000000;
+    opacity: 0.8;
+    line-height: 2.26rem; }
+    .fuwu footer img:nth-of-type(1) {
+      width: 0.94rem;
+      height: 0.94rem; }
+    .fuwu footer img:nth-of-type(2) {
+      height: 80%;
+      margin-left: 1.09rem;
+      margin-top: 0.256rem; }
+    .fuwu footer span {
+      width: 3.73rem;
+      height: 1.07rem;
+      background-color: #FEB605;
+      color: white;
+      border-radius: 15px;
+      text-align: center;
+      margin-top: 0.64rem;
+      line-height: 1.07rem;
+      margin-left: 1.043rem; }

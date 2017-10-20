@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #999999; }
+  header img {
+    margin: 0.34rem 0.384rem;
+    height: 2.13rem;
+    margin-top: 0.3rem; }
+  header p {
+    margin-top: 0.5rem;
+    font-size: 0.768rem;
+    color: #000000;
+    line-height: 2.13rem; }
+  header .tubiao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -0.6rem; }
+    header .tubiao div {
+      margin: 0.34rem 0.384rem;
+      line-height: 1.28rem; }
+      header .tubiao div .p1 {
+        height: 0.96rem;
+        font-size: 0.704rem;
+        color: #999999; }
+      header .tubiao div .p2 {
+        height: 0.96rem;
+        font-size: 0.704rem; }
+      header .tubiao div p {
+        font-size: 0.47rem;
+        color: #999;
+        text-align: center; }
+
+.guanlan {
+  width: 100%;
+  margin-top: 0.768rem; }
+  .guanlan .guan1 {
+    margin-left: 0.468rem;
+    font-size: 0.6rem; }
+    .guanlan .guan1 button {
+      color: white;
+      background-color: #38CA94;
+      border-radius: 5px; }
+  .guanlan .huxing {
+    margin-left: 0.468rem;
+    margin-top: 0.64rem;
+    font-size: 0.512rem;
+    color: #000; }
+    .guanlan .huxing span {
+      color: #999999; }
+  .guanlan .guan3 {
+    margin-left: 0.468rem;
+    margin-top: 0.64rem;
+    font-size: 0.512rem;
+    color: #000000; }
+    .guanlan .guan3 span {
+      color: #999999; }
+
+.dianji {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.64rem; }
+  .dianji li:nth-of-type(1) {
+    width: 47%;
+    border: 1px solid #999999;
+    color: #007AFF; }
+  .dianji li:nth-of-type(2) {
+    width: 47%;
+    border: 1px solid #999999;
+    color: #38CA94; }
+
+.wufei {
+  margin-top: 0.768rem;
+  display: flex;
+  font-size: 0.6rem;
+  background-color: #F4F4F4; }
+  .wufei p {
+    margin-top: 0.768rem;
+    margin-left: 0.468rem;
+    margin-bottom: 0.768rem; }
+  .wufei span {
+    color: #38CA94;
+    border-bottom: 1px solid #38CA94; }
+  .wufei p:nth-of-type(2) {
+    margin-left: 2rem; }
+    .wufei p:nth-of-type(2) span {
+      color: #999999;
+      border: 0; }
+
+.chenggong {
+  width: 100%;
+  background-color: #F4F4F4;
+  height: 100%; }
+  .chenggong .qiu {
+    width: 80%;
+    display: flex;
+    margin-left: 0.468rem; }
+    .chenggong .qiu li:nth-of-type(1) {
+      margin-top: 0.16rem;
+      height: 0.96rem;
+      width: 0.96rem;
+      background-color: #39c895;
+      border-radius: 50%; }
+    .chenggong .qiu li:nth-of-type(2) {
+      margin-top: 0.64rem;
+      width: 0.96rem;
+      height: 1px;
+      background-color: #39C895; }
+    .chenggong .qiu li:nth-of-type(3) {
+      display: flex;
+      justify-content: space-between;
+      background-color: #EAEAEA;
+      height: 1.28rem;
+      width: 6rem;
+      font-size: 0.6rem;
+      line-height: 1.28rem;
+      color: #666666; }
+      .chenggong .qiu li:nth-of-type(3) p {
+        width: 1.8rem;
+        color: white;
+        text-align: center;
+        background-color: #39C895; }
+    .chenggong .qiu li:nth-of-type(4) {
+      margin-left: 0.2rem;
+      width: 4rem;
+      background-color: #FAB505;
+      color: white;
+      text-align: center;
+      line-height: 1.28rem;
+      font-size: 0.6rem; }
+  .chenggong .yanshou {
+    margin-top: 0.64rem;
+    font-size: 0.6rem;
+    margin-left: 2.25rem;
+    margin-bottom: 0.64rem; }
+  .chenggong .tu {
+    width: 80%;
+    display: flex;
+    margin-left: 2.25rem; }
+    .chenggong .tu img {
+      width: 30%;
+      height: 50%;
+      margin-left: 0.128rem;
+      margin-top: 0.128rem; }
+
+.chenggong3 {
+  width: 100%;
+  background-color: #F4F4F4;
+  height: 50%; }
+  .chenggong3 .qiu {
+    width: 80%;
+    display: flex;
+    margin-left: 0.468rem; }
+    .chenggong3 .qiu li:nth-of-type(1) {
+      margin-top: 0.16rem;
+      height: 0.96rem;
+      width: 0.96rem;
+      background-color: #39c895;
+      border-radius: 50%; }
+    .chenggong3 .qiu li:nth-of-type(2) {
+      margin-top: 0.64rem;
+      width: 0.96rem;
+      height: 1px;
+      background-color: #39C895; }
+    .chenggong3 .qiu li:nth-of-type(3) {
+      display: flex;
+      justify-content: space-between;
+      background-color: #EAEAEA;
+      height: 1.28rem;
+      width: 6rem;
+      font-size: 0.6rem;
+      line-height: 1.28rem;
+      color: #666666; }
+      .chenggong3 .qiu li:nth-of-type(3) p {
+        width: 1.8rem;
+        color: white;
+        text-align: center;
+        background-color: #39C895; }
+    .chenggong3 .qiu li:nth-of-type(4) {
+      margin-left: 0.2rem;
+      width: 4rem;
+      background-color: #FAB505;
+      color: white;
+      text-align: center;
+      line-height: 1.28rem;
+      font-size: 0.6rem; }
+  .chenggong3 .yanshou {
+    margin-top: 0.64rem;
+    font-size: 0.6rem;
+    margin-left: 2.25rem;
+    margin-bottom: 0.64rem; }
+  .chenggong3 .tu {
+    width: 80%;
+    display: flex;
+    margin-left: 2.25rem; }
+    .chenggong3 .tu img {
+      width: 92%;
+      height: 50%;
+      margin-left: 0.128rem;
+      margin-top: 0.128rem; }
+
+.jieshao {
+  margin-top: 0.768rem;
+  background-color: white; }
+  .jieshao p {
+    margin-left: 0.384rem;
+    margin-right: 0.384rem;
+    font-size: 0.6rem;
+    color: #333333; }
+
+.hr2 {
+  margin-top: 0.39rem;
+  height: 0.9rem;
+  background-color: #f4f4f4;
+  border: 0; }
+
+.fuwu {
+  text-align: center; }
+  .fuwu p {
+    margin-top: 0.768rem;
+    color: #55A532;
+    display: flex;
+    justify-content: center;
+    font-size: 0.68rem; }
+    .fuwu p span {
+      font-size: 0.6rem;
+      color: #333333; }
+  .fuwu ul {
+    font-size: 0.68rem;
+    display: flex;
+    justify-content: space-around; }
+  .fuwu footer {
+    height: 2.26rem;
+    display: flex;
+    background-color: #000000;
+    opacity: 0.8;
+    line-height: 2.26rem; }
+    .fuwu footer img:nth-of-type(1) {
+      width: 0.94rem;
+      height: 0.94rem; }
+    .fuwu footer img:nth-of-type(2) {
+      height: 80%;
+      margin-left: 1.09rem;
+      margin-top: 0.256rem; }
+    .fuwu footer span {
+      width: 3.73rem;
+      height: 1.07rem;
+      background-color: #FEB605;
+      color: white;
+      border-radius: 15px;
+      text-align: center;
+      margin-top: 0.64rem;
+      line-height: 1.07rem;
+      margin-left: 1.043rem; }
